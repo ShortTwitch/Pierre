@@ -1,0 +1,28 @@
+{
+  "name": "pierre",
+  "version": "1.0.0",
+  "description": "A PR Slack notificatin bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dshen36/Pierre.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dshen36/Pierre/issues"
+  },
+  "homepage": "https://github.com/dshen36/Pierre#readme",
+  "dependencies": {
+    "@slack/client": "^3.14.0",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.1",
+    "mocha": "^4.0.1",
+    "node-schedule": "^1.2.5",
+    "request": "^2.83.0"
+  }
+}
